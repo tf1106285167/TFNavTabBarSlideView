@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85ADC16520046D3A003FA210 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC16420046D3A003FA210 /* AppDelegate.m */; };
+		85ADC16820046D3A003FA210 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC16720046D3A003FA210 /* ViewController.m */; };
+		85ADC16B20046D3A003FA210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC16920046D3A003FA210 /* Main.storyboard */; };
+		85ADC16D20046D3A003FA210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC16C20046D3A003FA210 /* Assets.xcassets */; };
+		85ADC17020046D3A003FA210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC16E20046D3A003FA210 /* LaunchScreen.storyboard */; };
+		85ADC17320046D3A003FA210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC17220046D3A003FA210 /* main.m */; };
+		85ADC17D20046D3A003FA210 /* TFNavTabBarSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC17C20046D3A003FA210 /* TFNavTabBarSlideViewTests.m */; };
+		85ADC18820046D3A003FA210 /* TFNavTabBarSlideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC18720046D3A003FA210 /* TFNavTabBarSlideViewUITests.m */; };
+		85ADC1AE20049B88003FA210 /* NavTabBarSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC1A620049B88003FA210 /* NavTabBarSlideView.m */; };
+		85ADC1AF20049B88003FA210 /* SlideViewUseDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC1A820049B88003FA210 /* SlideViewUseDemo.m */; };
+		85ADC1B020049B88003FA210 /* TopIndexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC1AA20049B88003FA210 /* TopIndexCell.m */; };
+		85ADC1B120049B88003FA210 /* TopIndexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC1AB20049B88003FA210 /* TopIndexCell.xib */; };
+		85ADC1B220049B88003FA210 /* TopIndexCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC1AD20049B88003FA210 /* TopIndexCollectionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85ADC17920046D3A003FA210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85ADC15820046D3A003FA210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85ADC15F20046D3A003FA210;
+			remoteInfo = TFNavTabBarSlideView;
+		};
+		85ADC18420046D3A003FA210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85ADC15820046D3A003FA210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85ADC15F20046D3A003FA210;
+			remoteInfo = TFNavTabBarSlideView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85ADC16020046D3A003FA210 /* TFNavTabBarSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFNavTabBarSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85ADC16320046D3A003FA210 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85ADC16420046D3A003FA210 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85ADC16620046D3A003FA210 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85ADC16720046D3A003FA210 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85ADC16A20046D3A003FA210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85ADC16C20046D3A003FA210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85ADC16F20046D3A003FA210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85ADC17120046D3A003FA210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85ADC17220046D3A003FA210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85ADC17820046D3A003FA210 /* TFNavTabBarSlideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFNavTabBarSlideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85ADC17C20046D3A003FA210 /* TFNavTabBarSlideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNavTabBarSlideViewTests.m; sourceTree = "<group>"; };
+		85ADC17E20046D3A003FA210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85ADC18320046D3A003FA210 /* TFNavTabBarSlideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFNavTabBarSlideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85ADC18720046D3A003FA210 /* TFNavTabBarSlideViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNavTabBarSlideViewUITests.m; sourceTree = "<group>"; };
+		85ADC18920046D3A003FA210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85ADC1A520049B88003FA210 /* NavTabBarSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTabBarSlideView.h; sourceTree = "<group>"; };
+		85ADC1A620049B88003FA210 /* NavTabBarSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTabBarSlideView.m; sourceTree = "<group>"; };
+		85ADC1A720049B88003FA210 /* SlideViewUseDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideViewUseDemo.h; sourceTree = "<group>"; };
+		85ADC1A820049B88003FA210 /* SlideViewUseDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideViewUseDemo.m; sourceTree = "<group>"; };
+		85ADC1A920049B88003FA210 /* TopIndexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopIndexCell.h; sourceTree = "<group>"; };
+		85ADC1AA20049B88003FA210 /* TopIndexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopIndexCell.m; sourceTree = "<group>"; };
+		85ADC1AB20049B88003FA210 /* TopIndexCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopIndexCell.xib; sourceTree = "<group>"; };
+		85ADC1AC20049B88003FA210 /* TopIndexCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopIndexCollectionView.h; sourceTree = "<group>"; };
+		85ADC1AD20049B88003FA210 /* TopIndexCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopIndexCollectionView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85ADC15D20046D3A003FA210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85ADC17520046D3A003FA210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85ADC18020046D3A003FA210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85ADC15720046D3A003FA210 = {
+			isa = PBXGroup;
+			children = (
+				85ADC16220046D3A003FA210 /* TFNavTabBarSlideView */,
+				85ADC17B20046D3A003FA210 /* TFNavTabBarSlideViewTests */,
+				85ADC18620046D3A003FA210 /* TFNavTabBarSlideViewUITests */,
+				85ADC16120046D3A003FA210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85ADC16120046D3A003FA210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85ADC16020046D3A003FA210 /* TFNavTabBarSlideView.app */,
+				85ADC17820046D3A003FA210 /* TFNavTabBarSlideViewTests.xctest */,
+				85ADC18320046D3A003FA210 /* TFNavTabBarSlideViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85ADC16220046D3A003FA210 /* TFNavTabBarSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				85ADC16320046D3A003FA210 /* AppDelegate.h */,
+				85ADC16420046D3A003FA210 /* AppDelegate.m */,
+				85ADC16620046D3A003FA210 /* ViewController.h */,
+				85ADC16720046D3A003FA210 /* ViewController.m */,
+				85ADC1A420049B88003FA210 /* TFSlideView */,
+				85ADC16920046D3A003FA210 /* Main.storyboard */,
+				85ADC16C20046D3A003FA210 /* Assets.xcassets */,
+				85ADC16E20046D3A003FA210 /* LaunchScreen.storyboard */,
+				85ADC17120046D3A003FA210 /* Info.plist */,
+				85ADC17220046D3A003FA210 /* main.m */,
+			);
+			path = TFNavTabBarSlideView;
+			sourceTree = "<group>";
+		};
+		85ADC17B20046D3A003FA210 /* TFNavTabBarSlideViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				85ADC17C20046D3A003FA210 /* TFNavTabBarSlideViewTests.m */,
+				85ADC17E20046D3A003FA210 /* Info.plist */,
+			);
+			path = TFNavTabBarSlideViewTests;
+			sourceTree = "<group>";
+		};
+		85ADC18620046D3A003FA210 /* TFNavTabBarSlideViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85ADC18720046D3A003FA210 /* TFNavTabBarSlideViewUITests.m */,
+				85ADC18920046D3A003FA210 /* Info.plist */,
+			);
+			path = TFNavTabBarSlideViewUITests;
+			sourceTree = "<group>";
+		};
+		85ADC1A420049B88003FA210 /* TFSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				85ADC1A520049B88003FA210 /* NavTabBarSlideView.h */,
+				85ADC1A620049B88003FA210 /* NavTabBarSlideView.m */,
+				85ADC1A720049B88003FA210 /* SlideViewUseDemo.h */,
+				85ADC1A820049B88003FA210 /* SlideViewUseDemo.m */,
+				85ADC1A920049B88003FA210 /* TopIndexCell.h */,
+				85ADC1AA20049B88003FA210 /* TopIndexCell.m */,
+				85ADC1AB20049B88003FA210 /* TopIndexCell.xib */,
+				85ADC1AC20049B88003FA210 /* TopIndexCollectionView.h */,
+				85ADC1AD20049B88003FA210 /* TopIndexCollectionView.m */,
+			);
+			path = TFSlideView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85ADC15F20046D3A003FA210 /* TFNavTabBarSlideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85ADC18C20046D3A003FA210 /* Build configuration list for PBXNativeTarget "TFNavTabBarSlideView" */;
+			buildPhases = (
+				85ADC15C20046D3A003FA210 /* Sources */,
+				85ADC15D20046D3A003FA210 /* Frameworks */,
+				85ADC15E20046D3A003FA210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFNavTabBarSlideView;
+			productName = TFNavTabBarSlideView;
+			productReference = 85ADC16020046D3A003FA210 /* TFNavTabBarSlideView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85ADC17720046D3A003FA210 /* TFNavTabBarSlideViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85ADC18F20046D3A003FA210 /* Build configuration list for PBXNativeTarget "TFNavTabBarSlideViewTests" */;
+			buildPhases = (
+				85ADC17420046D3A003FA210 /* Sources */,
+				85ADC17520046D3A003FA210 /* Frameworks */,
+				85ADC17620046D3A003FA210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85ADC17A20046D3A003FA210 /* PBXTargetDependency */,
+			);
+			name = TFNavTabBarSlideViewTests;
+			productName = TFNavTabBarSlideViewTests;
+			productReference = 85ADC17820046D3A003FA210 /* TFNavTabBarSlideViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85ADC18220046D3A003FA210 /* TFNavTabBarSlideViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85ADC19220046D3A003FA210 /* Build configuration list for PBXNativeTarget "TFNavTabBarSlideViewUITests" */;
+			buildPhases = (
+				85ADC17F20046D3A003FA210 /* Sources */,
+				85ADC18020046D3A003FA210 /* Frameworks */,
+				85ADC18120046D3A003FA210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85ADC18520046D3A003FA210 /* PBXTargetDependency */,
+			);
+			name = TFNavTabBarSlideViewUITests;
+			productName = TFNavTabBarSlideViewUITests;
+			productReference = 85ADC18320046D3A003FA210 /* TFNavTabBarSlideViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85ADC15820046D3A003FA210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = TuFa;
+				TargetAttributes = {
+					85ADC15F20046D3A003FA210 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					85ADC17720046D3A003FA210 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85ADC15F20046D3A003FA210;
+					};
+					85ADC18220046D3A003FA210 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85ADC15F20046D3A003FA210;
+					};
+				};
+			};
+			buildConfigurationList = 85ADC15B20046D3A003FA210 /* Build configuration list for PBXProject "TFNavTabBarSlideView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85ADC15720046D3A003FA210;
+			productRefGroup = 85ADC16120046D3A003FA210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85ADC15F20046D3A003FA210 /* TFNavTabBarSlideView */,
+				85ADC17720046D3A003FA210 /* TFNavTabBarSlideViewTests */,
+				85ADC18220046D3A003FA210 /* TFNavTabBarSlideViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85ADC15E20046D3A003FA210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85ADC1B120049B88003FA210 /* TopIndexCell.xib in Resources */,
+				85ADC17020046D3A003FA210 /* LaunchScreen.storyboard in Resources */,
+				85ADC16D20046D3A003FA210 /* Assets.xcassets in Resources */,
+				85ADC16B20046D3A003FA210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85ADC17620046D3A003FA210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85ADC18120046D3A003FA210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85ADC15C20046D3A003FA210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85ADC1B220049B88003FA210 /* TopIndexCollectionView.m in Sources */,
+				85ADC1AE20049B88003FA210 /* NavTabBarSlideView.m in Sources */,
+				85ADC16820046D3A003FA210 /* ViewController.m in Sources */,
+				85ADC1B020049B88003FA210 /* TopIndexCell.m in Sources */,
+				85ADC17320046D3A003FA210 /* main.m in Sources */,
+				85ADC1AF20049B88003FA210 /* SlideViewUseDemo.m in Sources */,
+				85ADC16520046D3A003FA210 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85ADC17420046D3A003FA210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85ADC17D20046D3A003FA210 /* TFNavTabBarSlideViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85ADC17F20046D3A003FA210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85ADC18820046D3A003FA210 /* TFNavTabBarSlideViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85ADC17A20046D3A003FA210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85ADC15F20046D3A003FA210 /* TFNavTabBarSlideView */;
+			targetProxy = 85ADC17920046D3A003FA210 /* PBXContainerItemProxy */;
+		};
+		85ADC18520046D3A003FA210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85ADC15F20046D3A003FA210 /* TFNavTabBarSlideView */;
+			targetProxy = 85ADC18420046D3A003FA210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85ADC16920046D3A003FA210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85ADC16A20046D3A003FA210 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85ADC16E20046D3A003FA210 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85ADC16F20046D3A003FA210 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85ADC18A20046D3A003FA210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85ADC18B20046D3A003FA210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85ADC18D20046D3A003FA210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDMVAGLLBS;
+				INFOPLIST_FILE = TFNavTabBarSlideView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tufa008.com.TFNavTabBarSlideView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85ADC18E20046D3A003FA210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDMVAGLLBS;
+				INFOPLIST_FILE = TFNavTabBarSlideView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tufa008.com.TFNavTabBarSlideView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85ADC19020046D3A003FA210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDMVAGLLBS;
+				INFOPLIST_FILE = TFNavTabBarSlideViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tufa008.com.TFNavTabBarSlideViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFNavTabBarSlideView.app/TFNavTabBarSlideView";
+			};
+			name = Debug;
+		};
+		85ADC19120046D3A003FA210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDMVAGLLBS;
+				INFOPLIST_FILE = TFNavTabBarSlideViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tufa008.com.TFNavTabBarSlideViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFNavTabBarSlideView.app/TFNavTabBarSlideView";
+			};
+			name = Release;
+		};
+		85ADC19320046D3A003FA210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDMVAGLLBS;
+				INFOPLIST_FILE = TFNavTabBarSlideViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tufa008.com.TFNavTabBarSlideViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFNavTabBarSlideView;
+			};
+			name = Debug;
+		};
+		85ADC19420046D3A003FA210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDMVAGLLBS;
+				INFOPLIST_FILE = TFNavTabBarSlideViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tufa008.com.TFNavTabBarSlideViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFNavTabBarSlideView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85ADC15B20046D3A003FA210 /* Build configuration list for PBXProject "TFNavTabBarSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ADC18A20046D3A003FA210 /* Debug */,
+				85ADC18B20046D3A003FA210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85ADC18C20046D3A003FA210 /* Build configuration list for PBXNativeTarget "TFNavTabBarSlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ADC18D20046D3A003FA210 /* Debug */,
+				85ADC18E20046D3A003FA210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85ADC18F20046D3A003FA210 /* Build configuration list for PBXNativeTarget "TFNavTabBarSlideViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ADC19020046D3A003FA210 /* Debug */,
+				85ADC19120046D3A003FA210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85ADC19220046D3A003FA210 /* Build configuration list for PBXNativeTarget "TFNavTabBarSlideViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ADC19320046D3A003FA210 /* Debug */,
+				85ADC19420046D3A003FA210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85ADC15820046D3A003FA210 /* Project object */;
+}

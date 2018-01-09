@@ -17,7 +17,7 @@
 
 Pod::Spec.new do |s|
 s.name         = 'TFNavTabBarSlideView'
-s.version      = '1.0.4'
+s.version      = '1.0.5'
 s.summary      = '分页切换视图控件'
 s.homepage     = 'https://github.com/tf1106285167/TFNavTabBarSlideView'
 s.license      = 'MIT'

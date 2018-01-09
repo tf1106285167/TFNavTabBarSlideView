@@ -17,14 +17,14 @@
 
 Pod::Spec.new do |s|
 s.name         = 'TFNavTabBarSlideView'
-s.version      = '1.0.0'
+s.version      = '1.0.1'
 s.summary      = '分页切换视图控件'
 s.homepage     = 'https://github.com/tf1106285167/TFNavTabBarSlideView'
 s.license      = 'MIT'
 s.authors      = {'TuFa' => '1106285167@qq.com'}
 s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/tf1106285167/TFNavTabBarSlideView.git', :tag => s.version}
-s.source_files  = 'TFNavTabBarSlideView/*.{h,m}'
+s.source_files  = 'TFSlideView/*.{h,m}'
 s.requires_arc = true
 end
 

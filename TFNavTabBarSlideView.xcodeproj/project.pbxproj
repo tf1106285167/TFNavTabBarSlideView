@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85ADC16520046D3A003FA210 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC16420046D3A003FA210 /* AppDelegate.m */; };
-		85ADC16820046D3A003FA210 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC16720046D3A003FA210 /* ViewController.m */; };
 		85ADC16B20046D3A003FA210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC16920046D3A003FA210 /* Main.storyboard */; };
 		85ADC16D20046D3A003FA210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC16C20046D3A003FA210 /* Assets.xcassets */; };
 		85ADC17020046D3A003FA210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC16E20046D3A003FA210 /* LaunchScreen.storyboard */; };
-		85ADC17320046D3A003FA210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC17220046D3A003FA210 /* main.m */; };
 		85ADC17D20046D3A003FA210 /* TFNavTabBarSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC17C20046D3A003FA210 /* TFNavTabBarSlideViewTests.m */; };
 		85ADC18820046D3A003FA210 /* TFNavTabBarSlideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC18720046D3A003FA210 /* TFNavTabBarSlideViewUITests.m */; };
 		85ADC1AE20049B88003FA210 /* NavTabBarSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC1A620049B88003FA210 /* NavTabBarSlideView.m */; };
@@ -41,15 +38,10 @@
 
 /* Begin PBXFileReference section */
 		85ADC16020046D3A003FA210 /* TFNavTabBarSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFNavTabBarSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85ADC16320046D3A003FA210 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		85ADC16420046D3A003FA210 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85ADC16620046D3A003FA210 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		85ADC16720046D3A003FA210 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85ADC16A20046D3A003FA210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85ADC16C20046D3A003FA210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85ADC16F20046D3A003FA210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85ADC17120046D3A003FA210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85ADC17220046D3A003FA210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85ADC17820046D3A003FA210 /* TFNavTabBarSlideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFNavTabBarSlideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85ADC17C20046D3A003FA210 /* TFNavTabBarSlideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNavTabBarSlideViewTests.m; sourceTree = "<group>"; };
 		85ADC17E20046D3A003FA210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,10 +107,6 @@
 		85ADC16220046D3A003FA210 /* TFNavTabBarSlideView */ = {
 			isa = PBXGroup;
 			children = (
-				85ADC16320046D3A003FA210 /* AppDelegate.h */,
-				85ADC16420046D3A003FA210 /* AppDelegate.m */,
-				85ADC16620046D3A003FA210 /* ViewController.h */,
-				85ADC16720046D3A003FA210 /* ViewController.m */,
 				85ADC1A520049B88003FA210 /* NavTabBarSlideView.h */,
 				85ADC1A620049B88003FA210 /* NavTabBarSlideView.m */,
 				85ADC1A720049B88003FA210 /* SlideViewUseDemo.h */,
@@ -132,7 +120,6 @@
 				85ADC16C20046D3A003FA210 /* Assets.xcassets */,
 				85ADC16E20046D3A003FA210 /* LaunchScreen.storyboard */,
 				85ADC17120046D3A003FA210 /* Info.plist */,
-				85ADC17220046D3A003FA210 /* main.m */,
 			);
 			path = TFNavTabBarSlideView;
 			sourceTree = "<group>";
@@ -291,11 +278,8 @@
 			files = (
 				85ADC1B220049B88003FA210 /* TopIndexCollectionView.m in Sources */,
 				85ADC1AE20049B88003FA210 /* NavTabBarSlideView.m in Sources */,
-				85ADC16820046D3A003FA210 /* ViewController.m in Sources */,
 				85ADC1B020049B88003FA210 /* TopIndexCell.m in Sources */,
-				85ADC17320046D3A003FA210 /* main.m in Sources */,
 				85ADC1AF20049B88003FA210 /* SlideViewUseDemo.m in Sources */,
-				85ADC16520046D3A003FA210 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

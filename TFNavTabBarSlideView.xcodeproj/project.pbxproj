@@ -119,7 +119,15 @@
 				85ADC16420046D3A003FA210 /* AppDelegate.m */,
 				85ADC16620046D3A003FA210 /* ViewController.h */,
 				85ADC16720046D3A003FA210 /* ViewController.m */,
-				85ADC1A420049B88003FA210 /* TFSlideView */,
+				85ADC1A520049B88003FA210 /* NavTabBarSlideView.h */,
+				85ADC1A620049B88003FA210 /* NavTabBarSlideView.m */,
+				85ADC1A720049B88003FA210 /* SlideViewUseDemo.h */,
+				85ADC1A820049B88003FA210 /* SlideViewUseDemo.m */,
+				85ADC1A920049B88003FA210 /* TopIndexCell.h */,
+				85ADC1AA20049B88003FA210 /* TopIndexCell.m */,
+				85ADC1AB20049B88003FA210 /* TopIndexCell.xib */,
+				85ADC1AC20049B88003FA210 /* TopIndexCollectionView.h */,
+				85ADC1AD20049B88003FA210 /* TopIndexCollectionView.m */,
 				85ADC16920046D3A003FA210 /* Main.storyboard */,
 				85ADC16C20046D3A003FA210 /* Assets.xcassets */,
 				85ADC16E20046D3A003FA210 /* LaunchScreen.storyboard */,
@@ -145,22 +153,6 @@
 				85ADC18920046D3A003FA210 /* Info.plist */,
 			);
 			path = TFNavTabBarSlideViewUITests;
-			sourceTree = "<group>";
-		};
-		85ADC1A420049B88003FA210 /* TFSlideView */ = {
-			isa = PBXGroup;
-			children = (
-				85ADC1A520049B88003FA210 /* NavTabBarSlideView.h */,
-				85ADC1A620049B88003FA210 /* NavTabBarSlideView.m */,
-				85ADC1A720049B88003FA210 /* SlideViewUseDemo.h */,
-				85ADC1A820049B88003FA210 /* SlideViewUseDemo.m */,
-				85ADC1A920049B88003FA210 /* TopIndexCell.h */,
-				85ADC1AA20049B88003FA210 /* TopIndexCell.m */,
-				85ADC1AB20049B88003FA210 /* TopIndexCell.xib */,
-				85ADC1AC20049B88003FA210 /* TopIndexCollectionView.h */,
-				85ADC1AD20049B88003FA210 /* TopIndexCollectionView.m */,
-			);
-			path = TFSlideView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

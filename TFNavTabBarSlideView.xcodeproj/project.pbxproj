@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85ADC16B20046D3A003FA210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC16920046D3A003FA210 /* Main.storyboard */; };
-		85ADC16D20046D3A003FA210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC16C20046D3A003FA210 /* Assets.xcassets */; };
 		85ADC17020046D3A003FA210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ADC16E20046D3A003FA210 /* LaunchScreen.storyboard */; };
-		85ADC17D20046D3A003FA210 /* TFNavTabBarSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC17C20046D3A003FA210 /* TFNavTabBarSlideViewTests.m */; };
-		85ADC18820046D3A003FA210 /* TFNavTabBarSlideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC18720046D3A003FA210 /* TFNavTabBarSlideViewUITests.m */; };
 		85ADC1AE20049B88003FA210 /* NavTabBarSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC1A620049B88003FA210 /* NavTabBarSlideView.m */; };
 		85ADC1AF20049B88003FA210 /* SlideViewUseDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC1A820049B88003FA210 /* SlideViewUseDemo.m */; };
 		85ADC1B020049B88003FA210 /* TopIndexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADC1AA20049B88003FA210 /* TopIndexCell.m */; };
@@ -38,16 +34,9 @@
 
 /* Begin PBXFileReference section */
 		85ADC16020046D3A003FA210 /* TFNavTabBarSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFNavTabBarSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85ADC16A20046D3A003FA210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		85ADC16C20046D3A003FA210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85ADC16F20046D3A003FA210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85ADC17120046D3A003FA210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85ADC17820046D3A003FA210 /* TFNavTabBarSlideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFNavTabBarSlideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85ADC17C20046D3A003FA210 /* TFNavTabBarSlideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNavTabBarSlideViewTests.m; sourceTree = "<group>"; };
-		85ADC17E20046D3A003FA210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85ADC18320046D3A003FA210 /* TFNavTabBarSlideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFNavTabBarSlideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85ADC18720046D3A003FA210 /* TFNavTabBarSlideViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFNavTabBarSlideViewUITests.m; sourceTree = "<group>"; };
-		85ADC18920046D3A003FA210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85ADC1A520049B88003FA210 /* NavTabBarSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTabBarSlideView.h; sourceTree = "<group>"; };
 		85ADC1A620049B88003FA210 /* NavTabBarSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTabBarSlideView.m; sourceTree = "<group>"; };
 		85ADC1A720049B88003FA210 /* SlideViewUseDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideViewUseDemo.h; sourceTree = "<group>"; };
@@ -88,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				85ADC16220046D3A003FA210 /* TFNavTabBarSlideView */,
-				85ADC17B20046D3A003FA210 /* TFNavTabBarSlideViewTests */,
-				85ADC18620046D3A003FA210 /* TFNavTabBarSlideViewUITests */,
 				85ADC16120046D3A003FA210 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,30 +103,9 @@
 				85ADC1AB20049B88003FA210 /* TopIndexCell.xib */,
 				85ADC1AC20049B88003FA210 /* TopIndexCollectionView.h */,
 				85ADC1AD20049B88003FA210 /* TopIndexCollectionView.m */,
-				85ADC16920046D3A003FA210 /* Main.storyboard */,
-				85ADC16C20046D3A003FA210 /* Assets.xcassets */,
 				85ADC16E20046D3A003FA210 /* LaunchScreen.storyboard */,
-				85ADC17120046D3A003FA210 /* Info.plist */,
 			);
 			path = TFNavTabBarSlideView;
-			sourceTree = "<group>";
-		};
-		85ADC17B20046D3A003FA210 /* TFNavTabBarSlideViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				85ADC17C20046D3A003FA210 /* TFNavTabBarSlideViewTests.m */,
-				85ADC17E20046D3A003FA210 /* Info.plist */,
-			);
-			path = TFNavTabBarSlideViewTests;
-			sourceTree = "<group>";
-		};
-		85ADC18620046D3A003FA210 /* TFNavTabBarSlideViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				85ADC18720046D3A003FA210 /* TFNavTabBarSlideViewUITests.m */,
-				85ADC18920046D3A003FA210 /* Info.plist */,
-			);
-			path = TFNavTabBarSlideViewUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +216,6 @@
 			files = (
 				85ADC1B120049B88003FA210 /* TopIndexCell.xib in Resources */,
 				85ADC17020046D3A003FA210 /* LaunchScreen.storyboard in Resources */,
-				85ADC16D20046D3A003FA210 /* Assets.xcassets in Resources */,
-				85ADC16B20046D3A003FA210 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85ADC17D20046D3A003FA210 /* TFNavTabBarSlideViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85ADC18820046D3A003FA210 /* TFNavTabBarSlideViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +277,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		85ADC16920046D3A003FA210 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85ADC16A20046D3A003FA210 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		85ADC16E20046D3A003FA210 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
